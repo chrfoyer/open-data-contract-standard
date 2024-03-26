@@ -1,3 +1,4 @@
+# Table and one column
 - table: tbl
   description: Provides core payment metrics 
   dataGranularity: Aggregation on columns txn_ref_dt, pmt_txn_id
