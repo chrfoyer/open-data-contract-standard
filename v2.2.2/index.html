@@ -625,7 +625,7 @@
 <h2 id="executive-summary">Executive summary</h2>
 <p>This standard describes a structure for a <strong>data contract</strong>. It's current version is v2.2.2. It is available for you as an Apache 2.0 license. Contributions are welcome!</p>
 <h2 id="discover-the-open-standard">Discover the open standard</h2>
-<p>Discover the <a href="docs/index.md">Open Data Contract Standard</a>. This file contains some explanations and several examples. More <a href="docs/examples/index.md">examples</a> can be found here.</p>
+<p>Discover the <a href="standard/">Open Data Contract Standard</a>. This file contains some explanations and several examples. More <a href="examples/">examples</a> can be found here.</p>
 <h2 id="what-is-a-data-contract">What is a Data Contract?</h2>
 <h3 id="the-basics-of-a-data-contract">The basics of a data contract</h3>
 <p>A data contract defines the agreement between a data producer and consumers. A data contract contains several sections:
@@ -635,17 +635,17 @@
 * Service-level agreement (SLA).
 * Security &amp; stakeholders.
 * Custom properties.</p>
-<p><img alt="Data contract schema" src="./docs/img/data-contract-v2.2.1-schema.svg" title="Data contract schema" /></p>
+<p><img alt="Data contract schema" src="img/data-contract-v2.2.1-schema.svg" title="Data contract schema" /></p>
 <p><em>Figure 1: illustration of a data contract, its principal contributors, sections, and usage.</em></p>
 <h3 id="json-schema">JSON Schema</h3>
-<p>JSON Schema for ODCS can be found <a href="schema/odcs-json-schema.json">here</a>. You can import this schema into your IDE for 
+<p>JSON Schema for ODCS can be found <a href="https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema.json">here</a>. You can import this schema into your IDE for 
 validation of your YAML files. Links below show how you can import the schema:</p>
 <ul>
 <li><a href="https://www.jetbrains.com/help/idea/json.html#ws_json_schema_add_custom">IntelliJ</a></li>
-<li><a href="https://code.visualstudio.com/docs/languages/json#_json-schemas-and-settings">VS Code</a></li>
+<li><a href="https://code.visualstudio.com/languages/json#_json-schemas-and-settings">VS Code</a></li>
 </ul>
 <h2 id="contributing-to-the-project">Contributing to the project</h2>
-<p>Check out the <a href="./CONTRIBUTING.md">CONTRIBUTING</a> file.</p>
+<p>Check out the <a href="contributing/">CONTRIBUTING</a> file.</p>
 <h2 id="articles">Articles</h2>
 <ul>
 <li>2024-02-06 - <a href="https://medium.com/abeadata/getting-started-with-odcs-3ba790707879">Getting started with ODCS</a></li>
@@ -682,7 +682,7 @@ validation of your YAML files. Links below show how you can import the schema:</
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>mike<span class="w"> </span>set-default<span class="w"> </span>--push<span class="w"> </span>latest<span class="w">                    </span><span class="c1">#by default, users will go to latest</span>
 </span></code></pre></div>
 <h4 id="deploying-a-new-version">Deploying a new version</h4>
-<p>Given that the Github action <a href=".github/workflows/docs-site-deploy.yaml">here</a> it set to trigger when a new tag version is
+<p>Given that the Github action <a href="https://github.com/bitol-io/open-data-contract-standard/blob/main/.github/workflows/docs-site-deploy.yaml">here</a> it set to trigger when a new tag version is
 created, all that is required is to:
 1. <a href="https://github.com/bitol-io/open-data-contract-standard/releases">Create a new release</a>
 2. Put in new tag version for release (follows pattern v*)
